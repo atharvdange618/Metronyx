@@ -43,10 +43,10 @@ export default function ContactPage() {
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
-              <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl text-[#8B2703]">
+              <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl text-[#111111]">
                 Contact Us
               </h1>
-              <p className="mx-auto max-w-[700px] text-lg md:text-xl text-[#8B2703]">
+              <p className="mx-auto max-w-[700px] text-lg md:text-xl text-[#111111]">
                 Get in touch with our team to discuss how we can help transform
                 your manufacturing operations
               </p>
@@ -60,7 +60,7 @@ export default function ContactPage() {
           <div className="grid gap-8 lg:grid-cols-2 items-start">
             <div className="space-y-8">
               <div className="space-y-6">
-                <h2 className="text-3xl font-bold tracking-tighter text-[#8B2703]">
+                <h2 className="text-3xl font-bold tracking-tighter text-[#111111]">
                   Get in Touch
                 </h2>
                 <p className="text-muted-foreground">
@@ -137,7 +137,7 @@ export default function ContactPage() {
 
                 <Button
                   type="submit"
-                  className="w-full bg-[#8B2703] hover:bg-[#6d1e02]"
+                  className="w-full bg-[#111111] hover:bg-[#6d1e02]"
                 >
                   {formSubmitted ? (
                     <span className="flex items-center">
@@ -154,7 +154,7 @@ export default function ContactPage() {
             <div className="space-y-8">
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-[#8B2703]">
+                  <CardTitle className="text-[#111111]">
                     Contact Information
                   </CardTitle>
                   <CardDescription>Reach out to us directly</CardDescription>
@@ -210,7 +210,7 @@ export default function ContactPage() {
 
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-[#8B2703]">
+                  <CardTitle className="text-[#111111]">
                     Frequently Asked Questions
                   </CardTitle>
                   <CardDescription>
@@ -265,15 +265,15 @@ export default function ContactPage() {
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-[#8B2703]">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-[#111111]">
                 Ready to Transform Your Operations?
               </h2>
-              <p className="mx-auto max-w-[700px] text-lg text-[#8B2703]">
+              <p className="mx-auto max-w-[700px] text-lg text-[#111111]">
                 Contact us today to schedule a consultation with one of our
                 experts.
               </p>
             </div>
-            <Button className="bg-[#8B2703] hover:bg-[#6d1e02]">
+            <Button className="bg-[#111111] hover:bg-[#6d1e02]">
               Schedule a Consultation
             </Button>
           </div>

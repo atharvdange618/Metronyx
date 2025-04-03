@@ -26,25 +26,25 @@ export default function RootLayout({
           <main className="flex-1">{children}</main>
           <footer className="w-full border-t py-6 md:py-0 bg-[#FFCC66]">
             <div className="container flex flex-col md:flex-row items-center justify-between gap-4 md:h-24 px-4 md:px-6">
-              <p className="text-center text-sm leading-loose text-[#8B2703] md:text-left">
+              <p className="text-center text-sm leading-loose text-[#111111] md:text-left">
                 © {new Date().getFullYear()} METRONYX. All rights reserved.
               </p>
               <div className="flex items-center gap-4">
                 <Link
                   href="/services"
-                  className="text-sm font-medium text-[#8B2703] hover:text-[#6d1e02] transition-colors"
+                  className="text-sm font-medium hover:text-white p-3 rounded-md hover:shadow-md transition-colors hover:bg-[#111111]"
                 >
                   Services
                 </Link>
                 <Link
                   href="/about"
-                  className="text-sm font-medium text-[#8B2703] hover:text-[#6d1e02] transition-colors"
+                  className="text-sm font-medium hover:text-white p-3 rounded-md hover:shadow-md transition-colors hover:bg-[#111111]"
                 >
                   About
                 </Link>
                 <Link
                   href="/contact"
-                  className="text-sm font-medium text-[#8B2703] hover:text-[#6d1e02] transition-colors"
+                  className="text-sm font-medium hover:text-white p-3 rounded-md hover:shadow-md transition-colors hover:bg-[#111111]"
                 >
                   Contact
                 </Link>

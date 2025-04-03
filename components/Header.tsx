@@ -10,7 +10,7 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-16 items-center justify-between">
+      <div className="container flex h-20 items-center justify-between">
         <div className="flex items-center gap-2">
           <Link href="/" className="flex items-center gap-2">
             <Image
@@ -25,34 +25,32 @@ export default function Header() {
         <nav className="hidden md:flex gap-6">
           <Link
             href="/"
-            className="text-sm font-medium hover:text-[#8B2703] transition-colors"
+            className="text-sm font-medium hover:text-white p-3 rounded-md hover:shadow-md transition-colors hover:bg-[#111111]"
           >
             Home
           </Link>
           <Link
             href="/services"
-            className="text-sm font-medium hover:text-[#8B2703] transition-colors"
+            className="text-sm font-medium hover:text-white p-3 rounded-md hover:shadow-md transition-colors hover:bg-[#111111]"
           >
             Services
           </Link>
           <Link
             href="/about"
-            className="text-sm font-medium hover:text-[#8B2703] transition-colors"
+            className="text-sm font-medium hover:text-white p-3 rounded-md hover:shadow-md transition-colors hover:bg-[#111111]"
           >
             About
           </Link>
           <Link
             href="/contact"
-            className="text-sm font-medium hover:text-[#8B2703] transition-colors"
+            className="text-sm font-medium hover:text-white p-3 rounded-md hover:shadow-md transition-colors hover:bg-[#111111]"
           >
             Contact
           </Link>
         </nav>
         <div className="flex items-center gap-4">
           <Link href="/contact">
-            <Button className="bg-[#8B2703] hover:bg-[#6d1e02] ml-1">
-              Get Started
-            </Button>
+            <Button className="bg-[#111111] ml-1">Get Started</Button>
           </Link>
           <button
             className="md:hidden"
@@ -83,28 +81,28 @@ export default function Header() {
           <nav className="flex flex-col gap-4 p-4">
             <Link
               href="/"
-              className="text-sm font-medium hover:text-[#8B2703] transition-colors"
+              className="text-sm font-medium hover:text-[#111111] transition-colors"
               onClick={() => setMenuOpen(false)}
             >
               Home
             </Link>
             <Link
               href="/services"
-              className="text-sm font-medium hover:text-[#8B2703] transition-colors"
+              className="text-sm font-medium hover:text-[#111111] transition-colors"
               onClick={() => setMenuOpen(false)}
             >
               Services
             </Link>
             <Link
               href="/about"
-              className="text-sm font-medium hover:text-[#8B2703] transition-colors"
+              className="text-sm font-medium hover:text-[#111111] transition-colors"
               onClick={() => setMenuOpen(false)}
             >
               About
             </Link>
             <Link
               href="/contact"
-              className="text-sm font-medium hover:text-[#8B2703] transition-colors"
+              className="text-sm font-medium hover:text-[#111111] transition-colors"
               onClick={() => setMenuOpen(false)}
             >
               Contact

@@ -18,10 +18,10 @@ export default function ServicesPage() {
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
-              <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl text-[#8B2703]">
+              <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl text-[#111111]">
                 Our Services
               </h1>
-              <p className="mx-auto max-w-[700px] text-lg md:text-xl text-[#8B2703]">
+              <p className="mx-auto max-w-[700px] text-lg md:text-xl text-[#111111]">
                 Comprehensive IT solutions tailored for industrial and
                 manufacturing environments
               </p>
@@ -38,7 +38,7 @@ export default function ServicesPage() {
               <div className="inline-flex items-center justify-center rounded-lg bg-[#2A8B8B] p-2 shadow-lg">
                 <Code className="h-10 w-10 text-white" />
               </div>
-              <h2 className="text-3xl font-bold tracking-tighter text-[#8B2703]">
+              <h2 className="text-3xl font-bold tracking-tighter text-[#111111]">
                 Customized Software Development
               </h2>
               <p className="text-lg text-muted-foreground">
@@ -47,7 +47,7 @@ export default function ServicesPage() {
                 requirements.
               </p>
               <div className="space-y-4">
-                <h3 className="text-xl font-bold text-[#8B2703]">
+                <h3 className="text-xl font-bold text-[#111111]">
                   Our Approach
                 </h3>
                 <p>
@@ -64,7 +64,7 @@ export default function ServicesPage() {
                 </p>
               </div>
               <div className="space-y-4">
-                <h3 className="text-xl font-bold text-[#8B2703]">
+                <h3 className="text-xl font-bold text-[#111111]">
                   Key Features
                 </h3>
                 <ul className="space-y-2">
@@ -117,7 +117,7 @@ export default function ServicesPage() {
               />
 
               <div className="space-y-4">
-                <h3 className="text-xl font-bold text-[#8B2703]">
+                <h3 className="text-xl font-bold text-[#111111]">
                   Technologies We Use
                 </h3>
                 <p>
@@ -228,7 +228,7 @@ export default function ServicesPage() {
               <div className="inline-flex items-center justify-center rounded-lg bg-[#D64E12] p-2 shadow-lg">
                 <BarChart3 className="h-10 w-10 text-white" />
               </div>
-              <h2 className="text-3xl font-bold tracking-tighter text-[#8B2703]">
+              <h2 className="text-3xl font-bold tracking-tighter text-[#111111]">
                 Real-Time Data Monitoring and Analytics Using Power BI
               </h2>
               <p className="text-lg text-muted-foreground">
@@ -237,7 +237,7 @@ export default function ServicesPage() {
                 flexibility to meet diverse customer requirements.
               </p>
               <div className="space-y-4">
-                <h3 className="text-xl font-bold text-[#8B2703]">
+                <h3 className="text-xl font-bold text-[#111111]">
                   Our Approach
                 </h3>
                 <p>
@@ -265,7 +265,7 @@ export default function ServicesPage() {
               />
 
               <div className="space-y-4">
-                <h3 className="text-xl font-bold text-[#8B2703]">
+                <h3 className="text-xl font-bold text-[#111111]">
                   Key Features
                 </h3>
                 <ul className="space-y-2">
@@ -364,7 +364,7 @@ export default function ServicesPage() {
               <div className="inline-flex items-center justify-center rounded-lg bg-[#2A8B8B] p-2 shadow-lg">
                 <BrainCircuit className="h-10 w-10 text-white" />
               </div>
-              <h2 className="text-3xl font-bold tracking-tighter text-[#8B2703]">
+              <h2 className="text-3xl font-bold tracking-tighter text-[#111111]">
                 Predictive Maintenance and AI-Driven Insights
               </h2>
               <p className="text-lg text-muted-foreground">
@@ -373,7 +373,7 @@ export default function ServicesPage() {
                 decisions with tailored solutions for diverse customer needs.
               </p>
               <div className="space-y-4">
-                <h3 className="text-xl font-bold text-[#8B2703]">
+                <h3 className="text-xl font-bold text-[#111111]">
                   Our Approach
                 </h3>
                 <p>
@@ -390,7 +390,7 @@ export default function ServicesPage() {
                 </p>
               </div>
               <div className="space-y-4">
-                <h3 className="text-xl font-bold text-[#8B2703]">
+                <h3 className="text-xl font-bold text-[#111111]">
                   Key Features
                 </h3>
                 <ul className="space-y-2">
@@ -500,7 +500,7 @@ export default function ServicesPage() {
               <div className="inline-flex items-center justify-center rounded-lg bg-[#D64E12] p-2 shadow-lg">
                 <Headset className="h-10 w-10 text-white" />
               </div>
-              <h2 className="text-3xl font-bold tracking-tighter text-[#8B2703]">
+              <h2 className="text-3xl font-bold tracking-tighter text-[#111111]">
                 Full Time Maintenance Support
               </h2>
               <p className="text-lg text-muted-foreground">
@@ -509,7 +509,7 @@ export default function ServicesPage() {
                 resolution with solutions tailored to customer requirements.
               </p>
               <div className="space-y-4">
-                <h3 className="text-xl font-bold text-[#8B2703]">
+                <h3 className="text-xl font-bold text-[#111111]">
                   Our Approach
                 </h3>
                 <p>
@@ -525,7 +525,7 @@ export default function ServicesPage() {
                 </p>
               </div>
               <div className="space-y-4">
-                <h3 className="text-xl font-bold text-[#8B2703]">
+                <h3 className="text-xl font-bold text-[#111111]">
                   Key Features
                 </h3>
                 <ul className="space-y-2">
@@ -628,16 +628,16 @@ export default function ServicesPage() {
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-[#8B2703]">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-[#111111]">
                 Ready to Transform Your Manufacturing Operations?
               </h2>
-              <p className="mx-auto max-w-[700px] text-lg text-[#8B2703]">
+              <p className="mx-auto max-w-[700px] text-lg text-[#111111]">
                 Contact us today to discuss how our services can help optimize
                 your processes and drive growth.
               </p>
             </div>
             <Link href="/contact">
-              <Button className="bg-[#8B2703] hover:bg-[#6d1e02]">
+              <Button className="bg-[#111111] hover:bg-[#6d1e02]">
                 Get in Touch
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>

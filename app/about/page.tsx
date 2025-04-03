@@ -11,10 +11,10 @@ export default function AboutPage() {
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
-              <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl text-[#8B2703]">
+              <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl text-[#111111]">
                 About METRONYX
               </h1>
-              <p className="mx-auto max-w-[700px] text-lg md:text-xl text-[#8B2703]">
+              <p className="mx-auto max-w-[700px] text-lg md:text-xl text-[#111111]">
                 Transforming industrial operations through innovative IT
                 solutions
               </p>
@@ -27,7 +27,7 @@ export default function AboutPage() {
         <div className="container px-4 md:px-6">
           <div className="grid gap-8 md:grid-cols-2 items-center">
             <div className="space-y-6">
-              <h2 className="text-3xl font-bold tracking-tighter text-[#8B2703]">
+              <h2 className="text-3xl font-bold tracking-tighter text-[#111111]">
                 Our Story
               </h2>
               <div className="space-y-4">
@@ -79,7 +79,7 @@ export default function AboutPage() {
       <section className="w-full py-12 md:py-24 bg-gray-50">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
-            <h2 className="text-3xl font-bold tracking-tighter text-[#8B2703]">
+            <h2 className="text-3xl font-bold tracking-tighter text-[#111111]">
               Our Mission, Vision & Values
             </h2>
           </div>
@@ -89,7 +89,7 @@ export default function AboutPage() {
               <div className="inline-flex items-center justify-center rounded-lg bg-[#2A8B8B] p-2 shadow-lg mb-4">
                 <Target className="h-8 w-8 text-white" />
               </div>
-              <h3 className="text-xl font-bold text-[#8B2703] mb-4">
+              <h3 className="text-xl font-bold text-[#111111] mb-4">
                 Our Mission
               </h3>
               <p>
@@ -104,7 +104,7 @@ export default function AboutPage() {
               <div className="inline-flex items-center justify-center rounded-lg bg-[#D64E12] p-2 shadow-lg mb-4">
                 <Lightbulb className="h-8 w-8 text-white" />
               </div>
-              <h3 className="text-xl font-bold text-[#8B2703] mb-4">
+              <h3 className="text-xl font-bold text-[#111111] mb-4">
                 Our Vision
               </h3>
               <p>
@@ -120,7 +120,7 @@ export default function AboutPage() {
               <div className="inline-flex items-center justify-center rounded-lg bg-[#2A8B8B] p-2 shadow-lg mb-4">
                 <Award className="h-8 w-8 text-white" />
               </div>
-              <h3 className="text-xl font-bold text-[#8B2703] mb-4">
+              <h3 className="text-xl font-bold text-[#111111] mb-4">
                 Our Values
               </h3>
               <ul className="space-y-2 text-left">
@@ -161,7 +161,7 @@ export default function AboutPage() {
       <section className="w-full py-12 md:py-24">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
-            <h2 className="text-3xl font-bold tracking-tighter text-[#8B2703]">
+            <h2 className="text-3xl font-bold tracking-tighter text-[#111111]">
               Our Team
             </h2>
             <p className="mx-auto max-w-[700px] text-muted-foreground">
@@ -245,11 +245,11 @@ export default function AboutPage() {
         <div className="container px-4 md:px-6">
           <div className="grid gap-8 md:grid-cols-2 items-center">
             <div className="space-y-6">
-              <h2 className="text-3xl font-bold tracking-tighter text-[#8B2703]">
+              <h2 className="text-3xl font-bold tracking-tighter text-[#111111]">
                 Why Choose METRONYX?
               </h2>
               <div className="space-y-4">
-                <p className="text-[#8B2703]">
+                <p className="text-[#111111]">
                   At METRONYX, we understand the unique challenges faced by
                   manufacturing and industrial operations. Our solutions are
                   specifically designed to address these challenges, providing
@@ -258,36 +258,36 @@ export default function AboutPage() {
                 </p>
                 <ul className="space-y-2">
                   <li className="flex items-start">
-                    <ArrowRight className="mr-2 h-4 w-4 mt-1 text-[#8B2703]" />
-                    <span className="text-[#8B2703]">
+                    <ArrowRight className="mr-2 h-4 w-4 mt-1 text-[#111111]" />
+                    <span className="text-[#111111]">
                       <strong>Industry Expertise:</strong> Our team has deep
                       knowledge of manufacturing processes and challenges
                     </span>
                   </li>
                   <li className="flex items-start">
-                    <ArrowRight className="mr-2 h-4 w-4 mt-1 text-[#8B2703]" />
-                    <span className="text-[#8B2703]">
+                    <ArrowRight className="mr-2 h-4 w-4 mt-1 text-[#111111]" />
+                    <span className="text-[#111111]">
                       <strong>Customized Solutions:</strong> We tailor our
                       solutions to your specific needs
                     </span>
                   </li>
                   <li className="flex items-start">
-                    <ArrowRight className="mr-2 h-4 w-4 mt-1 text-[#8B2703]" />
-                    <span className="text-[#8B2703]">
+                    <ArrowRight className="mr-2 h-4 w-4 mt-1 text-[#111111]" />
+                    <span className="text-[#111111]">
                       <strong>Cutting-Edge Technology:</strong> We leverage the
                       latest technologies to deliver superior results
                     </span>
                   </li>
                   <li className="flex items-start">
-                    <ArrowRight className="mr-2 h-4 w-4 mt-1 text-[#8B2703]" />
-                    <span className="text-[#8B2703]">
+                    <ArrowRight className="mr-2 h-4 w-4 mt-1 text-[#111111]" />
+                    <span className="text-[#111111]">
                       <strong>Proven Track Record:</strong> We have a history of
                       successful implementations across various industries
                     </span>
                   </li>
                   <li className="flex items-start">
-                    <ArrowRight className="mr-2 h-4 w-4 mt-1 text-[#8B2703]" />
-                    <span className="text-[#8B2703]">
+                    <ArrowRight className="mr-2 h-4 w-4 mt-1 text-[#111111]" />
+                    <span className="text-[#111111]">
                       <strong>Dedicated Support:</strong> We provide
                       comprehensive support to ensure your success
                     </span>
@@ -295,7 +295,7 @@ export default function AboutPage() {
                 </ul>
               </div>
               <Link href="/contact">
-                <Button className="bg-[#8B2703] hover:bg-[#6d1e02] mt-4">
+                <Button className="bg-[#111111] hover:bg-[#6d1e02] mt-4">
                   Contact Us Today
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
